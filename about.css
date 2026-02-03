@@ -16,9 +16,26 @@ div.content {
     justify-items: center;
 }
 
+section.top h1 {
+    font-size: min(4rem);
+}
+
+section.top p {
+    font-size: min(2.25rem);
+    justify-items: center;
+}
+
 section {
     flex-direction: column;
     justify-items: center;
+}
+
+section h2 {
+    font-size: min(2rem);
+}
+
+section p {
+    font-size: min(1.25rem);
 }
 
 main section:not(:last-child) {
