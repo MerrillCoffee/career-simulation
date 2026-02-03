@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 40rem;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+section {
+    flex-direction: column;
+    justify-items: center;
+}
+
+main section:not(:last-child) {
+    border-bottom: 1px solid white;
+}
