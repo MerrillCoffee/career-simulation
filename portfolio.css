@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 49.75vh;
+    justify-content: center;
+    align-items: center;
+    display: block;
+
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.content main {
+    max-width: 50vh;
+}
+
+main section {
+    border: solid 1px white;
+}
+
+main section h2 {
+    text-align: center;
+}
