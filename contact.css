@@ -37,3 +37,7 @@ form label input.message {
     min-width: 20vh;
     height: 5rem;
 }
+
+form label button {
+    color: white;
+}
