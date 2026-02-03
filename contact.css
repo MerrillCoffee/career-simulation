@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.content main h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+form label {
+    display: flex;
+    margin: 1rem;
+    gap: .5rem;
+    align-items: center;
+}
+
+form label input {
+    display: flex;
+}
+
+form label input.message {
+    flex: 1;
+    min-width: 20vh;
+    height: 5rem;
+}
