@@ -5,6 +5,9 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
@@ -26,4 +29,27 @@ header {
 
 header p.name {
     font-weight: bold;
+    font-size: 1.5rem;
+    margin: .25rem;
+}
+
+header nav a {
+    color: unset;
+    text-decoration: unset;
+    font-size: 1.5rem;
+    padding-left: 2ch;
+    padding-right: 2ch;
+    margin: .25rem;
+
+}
+
+header nav a:not(:last-child) {
+    border-right: 1px solid white
+}
+
+footer {
+    background-color: rgba(1, 4, 9);
+    text-align: center;
+    margin-top: auto;
+    padding: .25rem;
 }
