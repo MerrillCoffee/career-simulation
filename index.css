@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(13, 17, 23);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(1, 4, 9);
+    padding: .25rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+header p.name {
+    font-weight: bold;
+}
